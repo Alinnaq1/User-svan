@@ -31,17 +31,7 @@ module.exports = {
 > \`stop\` . \`volume\` . \`nowplaying\`
 > \`shuffle\` . \`search\` . \`resume\`
 > \`remove\` . \`queue\` . \`loop\`
-> \`lyrics\` . \`radio\`
-
-
-
-**|** **Moderation Commands**
-> \`ban\` . \`unban\` . \`setnick\`
-> \`roleadd\` . \`roleremove\` . \`vkick\`
-> \`setprefix\` . \`clear\` . \`close\`
-> \`open\` . \`senddm\` . \`createchannel\`
-> \`deletechannel\`
-
+> \`lyrics\` . \`radio\` . \`setprefix\`
 
 
 
@@ -49,8 +39,6 @@ module.exports = {
 > \`boy\` . \`girl\` . \`couple\`
 > \`sad\` . \`cartoon\` . \`anime\`
 > \`neon\
-
-
 
 
 **|** **Game Commands**
