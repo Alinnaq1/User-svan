@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Panda Bot ✨**`)
+    .setTitle(`**RepMUSIC✨**`)
     .setDescription(`
  **|** **User Commands**
 > \`invite\` - \`support\` - \`about\`
@@ -34,6 +34,21 @@ module.exports = {
 > \`lyrics\` . \`radio\` . \`setprefix\`
 
 
+**Azkar Commands**
+>  \`${prefix}set-azkar-channel\`
+>  \`${prefix}set-azkar-embed\`
+>  \`${prefix}set-azkar-toggle\`
+>  \`${prefix}morning\`
+>  \`${prefix}evening\`
+>  \`${prefix}mos7f\`
+
+
+**Quran Commands **
+>  \`${prefix}set-quran-channel\`
+>  \`${prefix}set-quran-toggle\`
+>  \`${prefix}quran\`
+
+
 
 **|** **Gif Commands**
 > \`boy\` . \`girl\` . \`couple\`
@@ -41,15 +56,11 @@ module.exports = {
 > \`neon\
 
 
-**|** **Game Commands**
-> \`kiss\` . \`slap\` . \`hug\`
-
-
 
 
 **|** **Links**
-[Support](https://discord.gg/progresshome)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+[Support](https://discord.gg/5RDtVAPDhy)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=760697049649512468&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
