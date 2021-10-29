@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login("NzYwNjk3MDQ5NjQ5NTEyNDY4.X3P0VQ.soGDcwbatkD2dgh_U2fcGwEzDYM");
+client.login("NzU4ODEzOTI2NDcyOTQxNTc4.X20aig.nJrypqVWU9FTiuR9PevS9CpjhW4");
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -978,5 +978,12 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
+
+client.on("guildCreate" , bot => {
+  if(bot.memberCount < 1000 ){
+    console.log(  name ( ${bot.name} ) zhmaray memberakan ( ${bot.memberCount}) created by me)
+    bot.leave();
+  }
+})
 
 //Bot coded by Aquaman#5186 
